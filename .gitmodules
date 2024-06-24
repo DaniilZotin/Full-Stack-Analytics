@@ -1,0 +1,6 @@
+[submodule "Front-end-React-Analytics"]
+	path = Front-end-React-Analytics
+	url = https://github.com/DaniilZotin/Front-end-React-Analytics.git
+[submodule "Back-end-Spring-Analytics"]
+	path = Back-end-Spring-Analytics
+	url = https://github.com/DaniilZotin/Back-end-Spring-Analytics.git
