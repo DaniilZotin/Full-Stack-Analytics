@@ -28,12 +28,56 @@ $\color{#E3C678}{{POST}}$ /api/analytics/createDataForTestSystemInVideo - Create
 * [![OpenJDK][OpenJDK]][Docker-url]
 * [![POSTGRESQL][POSTGRESQL]][POSTGRESQL-url]
 * [![REACT][REACT]][REACT-url]
+* [![TS][TS]][TS-url]
+* [![HTML][HTML]][HTML-url]
+* [![CSS][CSS]][CSS-url]
+
+## Preview
+### Get all analytics
+#### 1. Postman
+![image](https://github.com/DaniilZotin/Full-Stack-Analytics/assets/85665335/afda41af-d478-475b-9e4b-ac32a7c28066)
+#### 2. App
+![image](https://github.com/DaniilZotin/Full-Stack-Analytics/assets/85665335/d611a272-b768-45f4-a212-b8c7f434cf79)
 
 
+### Get all analytics when DB do not has advertisement
+#### 1. Postman
+![image](https://github.com/DaniilZotin/Full-Stack-Analytics/assets/85665335/49d0d9bc-e0b8-4262-b54b-63e3884c9f2b)
+#### 2. App
+![image](https://github.com/DaniilZotin/Full-Stack-Analytics/assets/85665335/1c78768a-9f8f-43a1-9e20-40dcdf0648e0)
+
+### Inside information about advertisement
+![image](https://github.com/DaniilZotin/Full-Stack-Analytics/assets/85665335/9d0c42b6-5d29-428c-9c9d-6684cca43ddf)
+
+### Home page
+![image](https://github.com/DaniilZotin/Full-Stack-Analytics/assets/85665335/8af54fee-f6d3-4268-8ec1-a6d53434f98d)
+
+### About page
+![image](https://github.com/DaniilZotin/Full-Stack-Analytics/assets/85665335/95456036-bdde-4e5a-98a0-4f67974b16f7)
+
+### Error page
+![image](https://github.com/DaniilZotin/Full-Stack-Analytics/assets/85665335/dcd0ca3f-e488-4c6d-848b-c0f18bc13508)
 
 
-
-
+## Set up
+### 1. Clone the repo of backend
+```sh
+    https://github.com/DaniilZotin/Back-end-Spring-Analytics.git
+```
+### 2. Up Docker
+```sh
+     docker-compose up --build
+```
+### 3. You can use port 8094 to check app in postman
+### 4. Clone the repo of frontend
+```sh
+    https://github.com/DaniilZotin/Front-end-React-Analytics.git
+```
+### 5. Build project(frontend)
+### 6. Start app
+```sh
+    npm start
+```
 
 
 
@@ -77,7 +121,15 @@ $\color{#E3C678}{{POST}}$ /api/analytics/createDataForTestSystemInVideo - Create
 [POSTGRESQL]: https://img.shields.io/badge/postgresql-4169E1?style=for-the-badge&logo=postgresql&logoColor=white
 [POSTGRESQL-url]: https://www.docker.com/
 
-[REACT]: https://img.shields.io/badge/react-4169E1?style=for-the-badge&logo=react&logoColor=white
-[POSTGRESQL-url]: https://www.docker.com/
+[REACT]: https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black
+[REACT-url]: https://www.docker.com/
 
+[TS]: https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white
+[TS-url]: https://www.docker.com/
+
+[HTML]: https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=HTML5&logoColor=white
+[HTML-url]: https://www.docker.com/
+
+[CSS]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white
+[CSS-url]: https://www.docker.com/
 
